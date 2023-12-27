@@ -1,0 +1,42 @@
+.borderA {
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+
+.contentWrapper {
+  height: 400px;
+  .leftCard,
+  .rightCard {
+    height: 100%;
+    border: 1px solid #dcdfe6;
+    border-radius: 6px;
+  }
+  .rightCard {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    .summitContent {
+      flex: 1;
+      margin: 10px 0;
+      overflow: auto;
+      .selectList {
+        height: 100%;
+      }
+    }
+    .optionArea {
+      text-align: end;
+    }
+    .itemArea {
+      width: 95%;
+    }
+  }
+}
